@@ -9,3 +9,7 @@ function createEmployeeRecord([firstName, familyName, title, payHour]){
         timeOutEvents: [],}
 }
 
+function createEmployeeRecords(data){
+    return data.map(createEmployeeRecord);
+}
+
